@@ -1,0 +1,36 @@
+body{
+    background-color: gray;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+button{
+    border-radius: 5px;
+    width: 25vw;
+    height: 5vw;
+    border: none;
+    cursor: pointer;
+}
+.button-1{
+    background-color: rgb(228, 61, 61);
+    color: white;
+
+    &:hover{
+        background-color: green;
+    }
+}
+.button-2{
+    background-color: rgb(63, 63, 235);
+    color: white;
+
+    &:hover{
+        background-color: black;
+    }
+}
